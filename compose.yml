@@ -1,0 +1,9 @@
+services:
+  mirror:
+    image: sylver/sb-mirror
+    container_name: sb_mirror
+    restart: unless-stopped
+    ports:
+      - 4100:4100
+    volumes:
+      - ./sb-mirror:/data

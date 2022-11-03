@@ -1,0 +1,6 @@
+*
+!src/
+!Cargo.lock
+!Cargo.toml
+!nginx.conf
+!entrypoint.sh
